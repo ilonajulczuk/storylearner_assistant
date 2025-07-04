@@ -1,7 +1,3 @@
-I want to learn reading spanish text given below.
-Text is splited into sentences that are numbered.
-I want to learn on the level A1.
-
 Content:
 1. "Un rey tenía un jardín bonito.",
 2. "En el jardín había un árbol.",
@@ -19,4 +15,5 @@ Content:
 14. "Por la mañana, una manzana desapareció."
 
 For additional context there is image attached.
-I want to read it out loud. Could you keep an eye on my pronouciation?
+I want to read it out loud. Could you keep an eye on my pronunciation?
+Just start listening without any questions.
