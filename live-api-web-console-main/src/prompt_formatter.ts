@@ -1,6 +1,3 @@
-
-
-
 export function get_system_instructions(): string {
 
     return `## Your role

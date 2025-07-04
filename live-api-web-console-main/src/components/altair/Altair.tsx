@@ -23,6 +23,9 @@ import {
   Type,
 } from "@google/genai";
 
+import {spanish_sentences} from "../../data"
+import {get_pronunciation_prompt, get_system_instructions} from "../../prompt_formatter"
+
 const declaration: FunctionDeclaration = {
   name: "render_altair",
   description: "Displays an altair graph in json format.",
@@ -53,8 +56,11 @@ function AltairComponent() {
       systemInstruction: {
         parts: [
           {
-            text: 'You are my helpful assistant. Any time I ask you for a graph call the "render_altair" function I have provided you. Dont ask for additional information just make your best judgement.',
+            text: get_system_instructions(),
           },
+          {
+            text: get_pronunciation_prompt(spanish_sentences)
+          }
         ],
       },
       tools: [
