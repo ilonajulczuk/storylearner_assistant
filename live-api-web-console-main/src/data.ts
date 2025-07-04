@@ -12,4 +12,5 @@ export let spanish_sentences: string[] = [
     "Por la mañana, una manzana desapareció.",
     "Entonces el segundo hijo vigiló.",
     "Él durmió también.",
+    "Por la mañana, una manzana desapareció."
 ];
