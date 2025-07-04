@@ -56,10 +56,7 @@ function AltairComponent() {
       systemInstruction: {
         parts: [
           {
-            text: get_system_instructions(),
-          },
-          {
-            text: get_pronunciation_prompt(spanish_sentences)
+            text: get_system_instructions() + "\n" + get_pronunciation_prompt(spanish_sentences)
           }
         ],
       },
